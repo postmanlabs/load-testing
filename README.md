@@ -1,3 +1,6 @@
+### From this blog post: Don’t get TechCrunched: [performance testing for your HTTP APIs](https://medium.com/postman-engineering/dont-get-techcrunched-performance-testing-for-your-http-apis-3196e40f6b70)
+Using AWS Lambda to run concurrent functions with Newman
+
 ### Get Started
 Install dependencies
 
