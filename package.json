@@ -6,12 +6,15 @@
   "dependencies": {
     "async": "^2.6.1",
     "newman": "^4.1.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "zip -r function.zip package.json index.js ExampleEchoRequestMethodsCollection.json node_modules/"
+    "zip": "zip -r function.zip package.json index.js ExampleEchoRequestMethodsCollection.json node_modules/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/loopDelicious/load-testing/issues"
   },
-  "homepage": "https://github.com/loopDelicious/load-testing#readme"
+  "homepage": "https://github.com/loopDelicious/load-testing#readme",
+  "snyk": true
 }
