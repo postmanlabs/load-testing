@@ -5,7 +5,7 @@
   "main": "loadTest.js",
   "dependencies": {
     "async": "^2.6.1",
-    "newman": "^4.1.0",
+    "newman": "^4.5.3",
     "path": "^0.12.7"
   },
   "devDependencies": {},
